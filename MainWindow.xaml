@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
         mc:Ignorable="d" SizeToContent="WidthAndHeight"
-        Title="MetroWindow TitleCharacterCasing Test">
+        Title="MetroWindow TitleCharacterCasing Test" Style="{DynamicResource CustomWindowStyle}">
     <StackPanel>
         <Button x:Name="WrongWindowBtn" Content="Open WrongWindow" VerticalAlignment="Center" HorizontalAlignment="Center"
                 Click="WrongWindowBtn_OnClick" Margin="3"/>

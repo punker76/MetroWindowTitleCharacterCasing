@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MetroWindowTitleCharacterCasing"
         xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
         mc:Ignorable="d" WindowStartupLocation="CenterOwner"
-        Title="Wrong Window" Height="300" Width="400">
+        Title="Wrong Window" Height="300" Width="400" Style="{DynamicResource CustomWindowStyle}">
     <Grid>
         
     </Grid>
