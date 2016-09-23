@@ -16,7 +16,7 @@
             <Style TargetType="Button" BasedOn="{StaticResource MetroButton}">
                 <Setter Property="controls:ControlsHelper.ContentCharacterCasing"  Value="Normal"/>
             </Style>
-            <Style TargetType="controls:MetroWindow" BasedOn="{StaticResource {x:Type controls:MetroWindow}}">
+            <Style x:Key="CustomWindowStyle" TargetType="controls:MetroWindow" BasedOn="{StaticResource {x:Type controls:MetroWindow}}">
                 <Setter Property="TitleCharacterCasing" Value="Normal"/>
             </Style>
         </ResourceDictionary>
